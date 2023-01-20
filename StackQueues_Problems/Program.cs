@@ -15,6 +15,18 @@ namespace StackQueues_Problems
             Console.WriteLine("Sequence of stack after push values are:  ");
             Console.WriteLine("--------------------------------------------");
             linkedListStack.Display();
+            Console.WriteLine("--------------------------------------------");
+            linkedListStack.Peek();
+            Console.Write("\n");
+
+            Console.WriteLine("--------------------------------------------");
+            linkedListStack.Pop();
+            Console.Write("\n");
+
+            Console.WriteLine("--------------------------------------------");
+            linkedListStack.IsEmpty();
+            Console.Write("\n");
+
         }
     }
 }
